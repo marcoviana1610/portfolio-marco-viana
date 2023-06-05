@@ -310,12 +310,17 @@ img {
 
 .home__blob{
   width: 200px;
+  height: 185px;
   fill: var(--first-color);
+  
 }
 
+
 .home__blob-img{
-  width: 170px;
+  width: 135px;
+  margin: auto;
 }
+
 
 .home__data{
   grid-column: 1/3;
@@ -634,6 +639,7 @@ img {
 
   .footer__bg{
     background-color: var(--first-color-second);
+    /* background-color: rgb(46, 26, 80); */
     padding: 2rem 0 3rem;
   }
 
