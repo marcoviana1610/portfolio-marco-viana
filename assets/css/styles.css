@@ -115,6 +115,10 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
@@ -498,27 +502,47 @@ img {
 }
 
 .skills__html{
-  width: 90%;
+  width: 100%;
 }
 
 .skills__css{
-  width: 83%;
+  width: 96%;
 }
 
 .skills__js{
-  width: 50%;
+  width: 80%;
+}
+
+.skills__ts{
+  width: 70%;
 }
 
 .skills__react{
-  width: 25%;
+  width: 76%;
 }
 
 .skills__ps{
   width: 70%;
 }
 
-.skills__figma{
-  width: 43%;
+.skills__ui{
+  width: 60%;
+}
+
+.skills__mui{
+  width: 70%;
+}
+
+.skills__sql{
+  width: 60%;
+}
+
+.skills__py{
+  width: 58%;
+}
+
+.skills__api{
+  width: 36%;
 }
 
 .skills__close .skills__list{
